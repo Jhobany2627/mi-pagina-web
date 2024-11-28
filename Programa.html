@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIN - Micheladas</title>
+    <!-- Agregamos la fuente de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', Arial, sans-serif; /* Aplicamos la nueva fuente */
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #ffa500;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ff6700;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        .container {
+            padding: 1rem;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .menu-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .menu-item img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 1rem;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        h1, h2, h3 {
+            font-weight: 600; /* Letras más gruesas */
+        }
+        p, a {
+            font-weight: 400; /* Letras regulares */
+        }
+        a {
+            color: #ff6700; /* Color naranja para enlaces */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline; /* Subrayado al pasar el ratón */
+        }
+        .promo, .contact, .maps, .socials, .seating {
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>MIN - Micheladas</h1>
+    <p>¡Disfruta las mejores micheladas y botanas!</p>
+</header>
+
+<nav>
+    <a href="#menu">Menú</a>
+    <a href="#promociones">Promociones</a>
+    <a href="#contacto">Contacto</a>
+    <a href="#ubicacion">¿Cómo encontrarnos?</a>
+    <a href="#redes">Redes Sociales</a>
+    <a href="#mesas">Mesas disponibles</a>
+</nav>
+
+<div class="container">
+
+    <section id="menu">
+        <h2>Menú</h2>
+        <div class="menu-item">
+            <img src="https://cdn.shopify.com/s/files/1/0401/9421/2000/products/patatas-onduladas.jpg?v=1593026614" alt="Papas a la francesa">
+            <div>
+                <h3>Papas a la francesa</h3>
+                <p>$50 MXN</p>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.Dy7RwNY6NQBjelifJ5xH3QHaEK&pid=Api&P=0&h=180" alt="Michelada clásica">
+            <div>
+                <h3>Michelada clásica</h3>
+                <p>$70 MXN</p>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.I7GjZMn8oQ07I5eFUdHQcQHaHa&pid=Api&P=0&h=180" alt="Michelada picante">
+            <div>
+                <h3>Michelada picante</h3>
+                <p>$80 MXN</p>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="https://tse3.mm.bing.net/th?id=OIP._n4JJr75BSe8wPbQaE_AmgHaEK&pid=Api&P=0&h=180" alt="Michelada con clamato">
+            <div>
+                <h3>Michelada con clamato</h3>
+                <p>$85 MXN</p>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.a813ixbCRknU_LT7F3qWiAHaE8&pid=Api&P=0&h=180" alt="Alitas">
+            <div>
+                <h3>Alitas</h3>
+                <p>$60 MXN</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="promociones">
+        <h2>Promociones</h2>
+        <p>¡Consulta nuestras promociones especiales los fines de semana!</p>
+        <p>El viernes estaran al 2x1 en micheladas</p>
+        <p>El sábado estarán 1 orden de alitas y 1 michelada $120 MXN</p>
+        <p>El domingo estarán 1 orden de papas y 1 michelada $110 MXN</p>
+    </section>
+
+    <section id="contacto"> 
+        <h2>Contacto</h2>
+        <p>Teléfono: 55-2528-9558</p>
+        <p>Correo: min@gmail.com</p>
+    </section>
+
+    <section id="ubicacion">
+        <h2>¿Cómo encontrarnos?</h2>
+        <p>Estamos ubicados en C. Cedros 123-185, Bosques de Morelos, 54760 Cuautitlán Izcalli, Méx.</p>
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3757.8135999317647!2d-99.23458022573337!3d19.63526523417932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d21e61856e70a5%3A0x62cdb630c639506d!2sC.%20Cedros%20123-185%2C%20Bosques%20de%20Morelos%2C%2054760%20Cuautitl%C3%A1n%20Izcalli%2C%20M%C3%A9x.!5e0!3m2!1ses-419!2smx!4v1732813714554!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"> 
+        width="600" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+    </section>
+
+    <section id="redes">
+        <h2>Redes Sociales</h2>
+        <p>Síguenos en: 
+            <a href="https://www.facebook.com/profile.php?id=61569931011230" target="_blank">Facebook</a>, 
+        </p>
+    </section>
+
+    <section id="mesas">
+        <h2>Mesas disponibles</h2>
+        <p>Consulta los espacios disponibles en nuestro local para que te sientas cómodo mientras disfrutas de nuestras deliciosas micheladas.</p>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2024 MIN - Micheladas. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
